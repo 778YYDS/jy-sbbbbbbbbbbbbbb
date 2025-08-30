@@ -13,6 +13,7 @@ RUN python -m pip install --upgrade pip
 RUN pip install --no-cache-dir fastapi==0.103.2 uvicorn pydantic==1.10.12 python-multipart==0.0.6
 RUN pip install --no-cache-dir ddddocr==1.4.7
 RUN pip install --no-cache-dir pillow==9.5.0
+RUN pip install --no-cache-dir -r requirements.txt
 
 # 复制所有文件
 COPY . .
