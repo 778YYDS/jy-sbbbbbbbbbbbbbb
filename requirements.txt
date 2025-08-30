@@ -1,0 +1,5 @@
+requests
+fastapi
+uvicorn
+pydantic
+ddddocr==1.5.5
