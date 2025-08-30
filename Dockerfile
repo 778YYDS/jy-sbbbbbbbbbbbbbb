@@ -23,4 +23,4 @@ RUN mkdir -p models static
 # 使用环境变量设置端口
 ENV PORT=8080
 
-CMD ["python", "ocr_function.py"]
+CMD ["python", "main.py"]
